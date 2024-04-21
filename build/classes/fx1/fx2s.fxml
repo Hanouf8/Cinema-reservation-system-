@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="628.0" style="-fx-background-color: #2f2B43;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx1.Fx2sController">
+   <children>
+      <AnchorPane layoutX="11.0" layoutY="11.0" prefHeight="509.0" prefWidth="603.0" style="-fx-background-color: #4B2B6B; -fx-background-radius: 30;">
+         <children>
+            <Pane layoutX="66.0" layoutY="19.0" prefHeight="48.0" prefWidth="443.0" style="-fx-background-color: #5c5a8c; -fx-background-radius: 60;">
+               <children>
+                  <Text fill="#f5f2f2" layoutX="166.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOG IN">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <VBox layoutX="51.0" layoutY="163.0" prefHeight="237.0" prefWidth="225.0" spacing="50.0">
+               <children>
+                  <Text fill="#ebe4e4" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your Name">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#f2eeee" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your Password">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <VBox layoutX="300.0" layoutY="169.0" prefHeight="194.0" prefWidth="246.0" spacing="50.0">
+               <children>
+                  <TextField fx:id="namer2Action" onAction="#name2Action" />
+                  <TextField fx:id="pass2Action" onAction="#pass2Action" />
+               </children>
+            </VBox>
+            <Button fx:id="backto2" layoutX="138.0" layoutY="424.0" mnemonicParsing="false" onAction="#backto2Action" prefHeight="40.0" prefWidth="154.0" style="-fx-background-color: #2f2B43; -fx-background-radius: 30030;" text="Back" textFill="#f8f3f3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="nextto3" layoutX="329.0" layoutY="424.0" mnemonicParsing="false" onAction="#nextto3Action" prefHeight="40.0" prefWidth="154.0" style="-fx-background-color: #2f2B43; -fx-background-radius: 30030;" text="Next" textFill="#f8f3f3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

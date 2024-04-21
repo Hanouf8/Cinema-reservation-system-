@@ -1,0 +1,40 @@
+ ******** CUSTOMER INFORMATION : ********
+Name: ALhanouf alsulami
+Passowrd: 12345678
+Phone number: 0512345678
+Email: aa@aa
+Gender: Female
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: Bat Man
+Time: 5:00
+Screen: Aziz Mall screen
+Quntity: 2
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: Small popcorn-- 5$
+Drinks: pipse-- 5$
+---------------------------------------
+
+ ******** CUSTOMER INFORMATION : ********
+Name: alhanouf
+Passowrd: 12345678
+Phone number: 0552425698
+Email: h@hotmail.com
+Gender: Female
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: Truman Show
+Time: 3:00
+Screen: redsea Mall screeen
+Quntity: 3
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: Mediam popcorn-- 10$
+Drinks: slash-- 7$
+---------------------------------------
+
