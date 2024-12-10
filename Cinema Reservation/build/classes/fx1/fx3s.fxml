@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="677.0" style="-fx-background-color: #2f2B43;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx1.Fx3sController">
+   <children>
+      <AnchorPane layoutX="5.0" layoutY="4.0" prefHeight="546.0" prefWidth="665.0" style="-fx-background-color: #4B2B6B; -fx-background-radius: 10;">
+         <children>
+            <ImageView fitHeight="148.0" fitWidth="99.0" layoutX="63.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5965288165294062571_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="148.0" fitWidth="143.0" layoutX="265.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5965288165294062570_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="148.0" fitWidth="184.0" layoutX="487.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5965288165294062569_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="148.0" fitWidth="131.0" layoutX="63.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5965288165294062568_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="148.0" fitWidth="125.0" layoutX="265.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5965288165294062572_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="148.0" fitWidth="100.0" layoutX="483.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5965288165294062573_y.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#e8e4e4" layoutX="74.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="vertigo" wrappingWidth="75.00390625">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text fill="#e8e4e4" layoutX="270.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bird Man" wrappingWidth="87.00390625">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text fill="#e8e4e4" layoutX="495.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bat Man" wrappingWidth="75.00390625">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text fill="#e8e4e4" layoutX="47.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="truman show" wrappingWidth="128.00390625">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text fill="#e8e4e4" layoutX="268.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R.Dogs" wrappingWidth="128.00390625">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text fill="#e8e4e4" layoutX="472.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the apartment" wrappingWidth="128.00390625">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Button fx:id="nextto4" layoutX="220.0" layoutY="488.0" mnemonicParsing="false" onAction="#nextto4Action" prefHeight="36.0" prefWidth="182.0" style="-fx-background-color: #2f2B43; -fx-background-radius: 30030;" text="Next" textFill="#fcfafa">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="18.0" layoutY="14.0" prefHeight="45.0" prefWidth="639.0" style="-fx-background-color: #5c5a8c; -fx-background-radius: 60;">
+         <children>
+            <Text fill="#f5f3f3" layoutX="166.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Movies Now Showing">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="594.0" prefWidth="731.0" style="-fx-background-color: #2f2B43;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx1.Fx4Controller">
+   <children>
+      <AnchorPane layoutX="15.0" layoutY="13.0" prefHeight="568.0" prefWidth="701.0" style="-fx-background-color: #4B2B6B; -fx-background-radius: 30;">
+         <children>
+            <Button fx:id="nextto5" layoutX="351.0" layoutY="507.0" mnemonicParsing="false" onAction="#nextto5Action" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: #2f2B43; -fx-background-radius: 300030;" text="Next" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="backto3" layoutX="184.0" layoutY="507.0" mnemonicParsing="false" onAction="#backto3Action" prefHeight="29.0" prefWidth="148.0" style="-fx-background-color: #2f2B43; -fx-background-radius: 300030;" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </Button>
+            <Pane layoutX="20.0" layoutY="16.0" prefHeight="34.0" prefWidth="649.0" style="-fx-background-color: #5c5a8c; -fx-background-radius: 60;">
+               <children>
+                  <Label layoutX="292.0" layoutY="2.0" prefHeight="0.0" prefWidth="128.0" text="Bookngs" textFill="#f8f8f8">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <FlowPane accessibleRole="IMAGE_VIEW" blendMode="SCREEN" cache="true" layoutX="15.0" layoutY="66.0" opacity="0.2" prefHeight="444.0" prefWidth="193.0" style="-fx-background-color: #7E80B2; -fx-background-radius: 40;" />
+            <ChoiceBox fx:id="film" layoutX="30.0" layoutY="205.0" onDragDetected="#filmAction" prefHeight="25.0" prefWidth="162.0" />
+            <ChoiceBox fx:id="time" layoutX="30.0" layoutY="284.0" onDragDetected="#timeAction" prefHeight="25.0" prefWidth="162.0" />
+            <ChoiceBox fx:id="screen" layoutX="30.0" layoutY="360.0" onDragDetected="#sreenAction" prefHeight="25.0" prefWidth="162.0" />
+            <Label layoutX="73.0" layoutY="95.0" prefHeight="0.0" prefWidth="128.0" text="Date" textFill="#f8f8f8">
+               <font>
+                  <Font name="Bodoni MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="quntity" layoutX="30.0" layoutY="439.0" onDragDetected="#quntityAction" prefHeight="25.0" prefWidth="162.0" />
+            <DatePicker fx:id="date" layoutX="30.0" layoutY="127.0" onAction="#dateAction" prefHeight="25.0" prefWidth="162.0" />
+            <Label layoutX="64.0" layoutY="180.0" prefHeight="0.0" prefWidth="128.0" text="Film" textFill="#f8f8f8">
+               <font>
+                  <Font name="Bodoni MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="64.0" layoutY="254.0" prefHeight="0.0" prefWidth="128.0" text="Time" textFill="#f8f8f8">
+               <font>
+                  <Font name="Bodoni MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="64.0" layoutY="335.0" prefHeight="0.0" prefWidth="128.0" text="Screen" textFill="#f8f8f8">
+               <font>
+                  <Font name="Bodoni MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="64.0" layoutY="414.0" prefHeight="0.0" prefWidth="128.0" text="Quntity" textFill="#f8f8f8">
+               <font>
+                  <Font name="Bodoni MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="580.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="535.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="580.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="586.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="490.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="377.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="332.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="287.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="490.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="535.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="377.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="332.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="287.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="496.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="541.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="377.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="332.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="287.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="583.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="535.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="490.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="377.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="332.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="53.0" fitWidth="45.0" layoutX="287.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_5969791764921432824_y.jpg" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </AnchorPane>
+   </children>
+</AnchorPane>

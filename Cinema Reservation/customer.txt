@@ -1,0 +1,144 @@
+ ******** CUSTOMER INFORMATION : ********
+Name: aa
+Passowrd: 11111111
+Phone number: 0577777777
+Email: aa@aaa
+Gender: Female
+---------------------------------------
+
+ ******** CUSTOMER INFORMATION : ********
+Name: aa
+Passowrd: 12345678
+Phone number: 0566666666
+Email: aa@aa
+Gender: Female
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: R.Dogs
+Time: 15:00
+Screen: Haifa Mall screen
+Quntity: 7
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: Mediam popcorn-- 10$
+Drinks: slash-- 7$
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: null
+Time: null
+Screen: null
+Quntity: null
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: null
+Drinks: null
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: null
+Time: null
+Screen: null
+Quntity: null
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: null
+Drinks: null
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: null
+Time: null
+Screen: null
+Quntity: null
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: null
+Drinks: null
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: null
+Time: null
+Screen: null
+Quntity: null
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: null
+Drinks: null
+---------------------------------------
+
+ ******** CUSTOMER INFORMATION : ********
+Name: hhannn
+Passowrd: 12345678
+Phone number: 0544444444
+Email: dd@d
+Gender: Male
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: null
+Time: null
+Screen: null
+Quntity: null
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: null
+Drinks: null
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: null
+Time: null
+Screen: null
+Quntity: null
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: null
+Drinks: null
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: null
+Time: null
+Screen: null
+Quntity: null
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: null
+Drinks: null
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: null
+Time: null
+Screen: null
+Quntity: null
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: null
+Drinks: null
+---------------------------------------
+
+ ******** CUSTOMER CHOIC: ********
+Film: null
+Time: null
+Screen: null
+Quntity: null
+---------------------------------------
+
+ ******** CUSTOMER CHOICE OF FOOD : ********
+Food: null
+Drinks: null
+---------------------------------------
+
